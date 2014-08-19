@@ -1,0 +1,36 @@
+{
+  "name": "gulp-cssnext",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cssnext": "^0.1.0",
+    "gulp-util": "^3.0.0",
+    "through2": "^0.6.1"
+  },
+  "devDependencies": {
+    "tape": "^2.14.0"
+  },
+  "keywords": [
+    "css",
+    "preprocessor",
+    "postprocessor",
+    "rework",
+    "postcss",
+    "autoprefixer",
+    "gulpplugin"
+  ],
+  "scripts": {
+    "test": "tape test/**.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/putaindecode/gulp-cssnext.git"
+  },
+  "author": "bloodyowl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/putaindecode/gulp-cssnext/issues"
+  },
+  "homepage": "https://github.com/putaindecode/gulp-cssnext"
+}
