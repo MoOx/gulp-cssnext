@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/putaindecode/gulp-cssnext.svg)](https://travis-ci.org/putaindecode/gulp-cssnext)
 
 
-## Information
+## information
 
 <table>
 <tr>
