@@ -1,16 +1,7 @@
 {
   "name": "gulp-cssnext",
   "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "cssnext": "^0.1.0",
-    "gulp-util": "^3.0.0",
-    "through2": "^0.6.1"
-  },
-  "devDependencies": {
-    "tape": "^2.14.0"
-  },
+  "description": "Use tomorrow's CSS syntax, today. Via Gulp.",
   "keywords": [
     "css",
     "preprocessor",
@@ -20,17 +11,39 @@
     "autoprefixer",
     "gulpplugin"
   ],
-  "scripts": {
-    "test": "tape test/**.js"
-  },
+  "author": "bloodyowl",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git://github.com/putaindecode/gulp-cssnext.git"
   },
-  "author": "bloodyowl",
-  "license": "MIT",
+  "homepage": "https://github.com/putaindecode/gulp-cssnext",
   "bugs": {
     "url": "https://github.com/putaindecode/gulp-cssnext/issues"
   },
-  "homepage": "https://github.com/putaindecode/gulp-cssnext"
+  "files": [
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ],
+  "dependencies": {
+    "cssnext": "^0.1.0",
+    "gulp-util": "^3.0.0",
+    "through2": "^0.6.1"
+  },
+  "devDependencies": {
+    "jscs": "^1.5.9",
+    "jshint": "^2.5.2",
+    "jshint-stylish": "^0.4.0",
+    "tap-colorize": "^1.2.0",
+    "tape": "^2.14.0"
+  },
+  "scripts": {
+    "jscs": "jscs *.js **/*.js",
+    "jshint": "jshint . --exclude-path .gitignore --reporter node_modules/jshint-stylish/stylish.js",
+    "lint": "npm run jscs && npm run jshint",
+    "tape": "tape test/**/*.js | tap-colorize",
+    "test": "npm run lint && npm run tape"
+  }
 }

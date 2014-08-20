@@ -1,29 +1,19 @@
-# gulp-cssnext
+# gulp-[cssnext](https://github.com/putaindecode/cssnext)
 
-[![Build Status](https://travis-ci.org/putaindecode/gulp-cssnext.svg)](https://travis-ci.org/putaindecode/gulp-cssnext)
+[![Build Status](http://img.shields.io/travis/putaindecode/gulp-cssnext.svg)](https://travis-ci.org/putaindecode/gulp-cssnext)
+[![NPM version](http://img.shields.io/npm/v/gulp-cssnext.svg)](https://www.npmjs.org/package/gulp-cssnext)
 
+> Use tomorrow's CSS syntax, today. Via Gulp.
 
-## information
+*Issues with the output should be reported on [cssnext issue tracker](https://github.com/putaindecode/cssnext/issues).*
 
-<table>
-<tr>
-<td>package</td><td>gulp-cssnext</td>
-</tr>
-<tr>
-<td>description</td>
-<td>compiles to css using cssnext</td>
-</tr>
-<tr>
-<td>Node Version</td>
-<td>≥ 0.10</td>
-</tr>
-</table>
+## Install
 
-## api
+    $ npm install gulp-cssnext
 
-### cssnext(options)
+## Usage
 
-```javascript
+```js
 var cssnext = require("gulp-cssnext")
 
 gulp.task("stylesheets", function() {
@@ -35,6 +25,21 @@ gulp.task("stylesheets", function() {
 });
 ```
 
-### options
+### Options
 
-[list of the available options](https://github.com/putaindecode/cssnext#nodejs-options)
+Options are directly passed to cssnext, so checkout [cssnext options](https://github.com/putaindecode/cssnext#nodejs-options) directly
+
+---
+
+## Contributing
+
+Work on a branch, install dev-dependencies, respect coding style & run tests before submitting a bug fix or a feature.
+
+    $ git clone https://github.com/putaindecode/gulp-cssnext.git
+    $ git checkout -b patch-1
+    $ npm install
+    $ npm test
+
+## [Changelog](CHANGELOG.md)
+
+## [License](LICENSE)

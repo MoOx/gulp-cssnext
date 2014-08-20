@@ -21,7 +21,8 @@ function transform(options) {
       contents = file.contents.toString()
       try {
         transformed = cssnext(contents, options)
-      } catch(err) {
+      }
+      catch(err) {
         return cb(
           new PluginError("gulp-cssnext", err)
         )
