@@ -19,7 +19,7 @@ var cssnext = require("gulp-cssnext")
 gulp.task("stylesheets", function() {
   gulp.src("src/stylesheets/index.css")
     .pipe(cssnext({
-        compress : true
+        compress: true
     }))
     .pipe(gulp.dest("./dist/stylesheets"))
 });
@@ -28,6 +28,8 @@ gulp.task("stylesheets", function() {
 ### Options
 
 Options are directly passed to cssnext, so checkout [cssnext options](https://github.com/putaindecode/cssnext#nodejs-options) directly
+
+__Note: to get import relative to the `gulp.src()` file, it's recommanded to use [`from`](https://github.com/putaindecode/cssnext#from-default-null) and/or [`path`](https://github.com/putaindecode/cssnext#path-default-dirnamefrom--processcwd) options.__ Also, `from` is needed for `sourcemap`.
 
 ---
 
