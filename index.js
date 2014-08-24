@@ -20,6 +20,7 @@ function transform(options) {
     if(file.isBuffer()) {
       contents = file.contents.toString()
       try {
+        options.from = options.from === undefined ? (file.path !== null ? file.path : undefined) : options.from
         transformed = cssnext(contents, options)
       }
       catch(err) {

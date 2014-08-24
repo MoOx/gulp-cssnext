@@ -31,7 +31,7 @@ gulp.task("stylesheets", function() {
 
 Options are directly passed to cssnext, so checkout [cssnext options](https://github.com/putaindecode/cssnext#nodejs-options) directly
 
-__Note: to get import relative to the `gulp.src()` file, it's recommanded to use [`from`](https://github.com/putaindecode/cssnext#from-default-null) and/or [`path`](https://github.com/putaindecode/cssnext#path-default-dirnamefrom--processcwd) options.__ Also, `from` is needed for `sourcemap`.
+_Note: `from` option is by default automatically specified using gulp source._
 
 ---
 

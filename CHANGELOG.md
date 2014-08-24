@@ -1,3 +1,7 @@
+# 0.3.0 - 2014-08-24
+
+- Add `from` option automatically
+
 # 0.2.0 - 2014-08-22
 
 - cssnext 0.2.2
