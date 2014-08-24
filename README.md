@@ -5,7 +5,9 @@
 
 > Use tomorrow's CSS syntax, today. Via Gulp.
 
-*Issues with the output should be reported on [cssnext issue tracker](https://github.com/putaindecode/cssnext/issues).*
+**Issues with the output should be reported on [cssnext issue tracker](https://github.com/putaindecode/cssnext/issues).**
+
+_Follow [@cssnext](https://twitter.com/cssnext) to get latest news & [join #cssnext on irc.freenode.net](irc://irc.freenode.net/cssnext) if you have any questions._
 
 ## Install
 
