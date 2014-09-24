@@ -15,11 +15,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/putaindecode/gulp-cssnext.git"
+    "url": "git://github.com/cssnext/gulp-cssnext.git"
   },
-  "homepage": "https://github.com/putaindecode/gulp-cssnext",
+  "homepage": "http://cssnext.github.io",
   "bugs": {
-    "url": "https://github.com/putaindecode/gulp-cssnext/issues"
+    "url": "https://github.com/cssnext/gulp-cssnext/issues"
   },
   "files": [
     "CHANGELOG.md",
