@@ -24,11 +24,10 @@
   "files": [
     "CHANGELOG.md",
     "LICENSE",
-    "README.md",
     "index.js"
   ],
   "dependencies": {
-    "cssnext": "^0.2.2",
+    "cssnext": "^0.4.1",
     "gulp-util": "^3.0.0",
     "through2": "^0.6.1"
   },

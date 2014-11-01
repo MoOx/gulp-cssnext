@@ -61,7 +61,7 @@ tape("throws on cssnext error", function(test){
     )
   })
   stream.on("error", function(err){
-    test.equal(err.message, "postcss-custom-properties: variable \"--red\" is undefined")
+    test.equal(err.message, path.resolve(".") + ":2:3 missing closing \')\' in the value \'var(--red;\'")
     test.equal(err instanceof gutil.PluginError, true)
     test.end()
   })

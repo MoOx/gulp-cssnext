@@ -29,7 +29,7 @@ gulp.task("stylesheets", function() {
 
 ### Options
 
-Options are directly passed to cssnext, so checkout [cssnext options](https://github.com/cssnext/cssnext#nodejs-options) directly
+Options are directly passed to cssnext, so checkout [cssnext options](https://github.com/cssnext/cssnext#nodejs-options) directly.
 
 _Note: `from` option is by default automatically specified using gulp source._
 
