@@ -1,6 +1,6 @@
 {
   "name": "gulp-cssnext",
-  "version": "0.6.0",
+  "version": "1.0.0",
   "description": "Use tomorrow's CSS syntax, today, using cssnext via Gulp",
   "keywords": [
     "css",
@@ -29,7 +29,7 @@
     "index.js"
   ],
   "dependencies": {
-    "cssnext": "^0.6.0",
+    "cssnext": "^1.0.0",
     "gulp-util": "^3.0.0",
     "through2": "^0.6.1"
   },

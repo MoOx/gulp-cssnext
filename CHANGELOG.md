@@ -1,3 +1,7 @@
+# 1.0.0 - 2015-02-06
+
+- Changed: upgrade to cssnext v1.x
+
 # 0.6.0 - 2014-11-28
 
 - Upgrade to cssnext v0.6
