@@ -8,10 +8,10 @@ module.exports = function(options){
 }
 
 function transform(options) {
-  options = options || {}
   return function(file, enc, cb){
     var contents
     var transformed
+    var options = options || {}
     if(file.isStream()) {
       return cb(
         new PluginError("gulp-cssnext", "streaming not supported")
