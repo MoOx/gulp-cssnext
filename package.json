@@ -1,6 +1,6 @@
 {
   "name": "gulp-cssnext",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use tomorrow's CSS syntax, today, using cssnext via Gulp",
   "keywords": [
     "css",
@@ -19,7 +19,7 @@
     "type": "git",
     "url": "git://github.com/cssnext/gulp-cssnext.git"
   },
-  "homepage": "https://cssnext.github.io/",
+  "homepage": "http://cssnext.io/",
   "bugs": {
     "url": "https://github.com/cssnext/gulp-cssnext/issues"
   },
