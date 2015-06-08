@@ -1,3 +1,8 @@
+# 1.0.1 - 2015-05-08
+
+- Fixed: incorrect relative path when dealing with multiple files that have
+different paths ([#5](https://github.com/cssnext/gulp-cssnext/pull/5))
+
 # 1.0.0 - 2015-02-06
 
 - Changed: upgrade to cssnext v1.x

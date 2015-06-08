@@ -3,24 +3,26 @@ var cssnext = require("cssnext")
 var gutil = require("gulp-util")
 var PluginError = gutil.PluginError
 
-module.exports = function(options){
-  return through.obj(transform(options))
-}
-
-function transform(options) {
-  return function(file, enc, cb){
+function transform(opts) {
+  return function(file, enc, cb) {
     var contents
     var transformed
-    var options = options || {}
-    if(file.isStream()) {
+    var options = opts || {}
+    if (file.isStream()) {
       return cb(
         new PluginError("gulp-cssnext", "streaming not supported")
       )
     }
-    if(file.isBuffer()) {
+    if (file.isBuffer()) {
       contents = file.contents.toString()
       try {
-        options.from = options.from === undefined ? (file.path !== null ? file.path : undefined) : options.from
+        options.from = options.from === undefined
+          ? (
+            file.path !== null
+            ? file.path
+            : undefined
+          )
+          : options.from
         transformed = cssnext(contents, options)
       }
       catch(err) {
@@ -32,4 +34,8 @@ function transform(options) {
       cb(null, file)
     }
   }
+}
+
+module.exports = function(options) {
+  return through.obj(transform(options))
 }
