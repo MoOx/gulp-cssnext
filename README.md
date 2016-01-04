@@ -1,3 +1,7 @@
+# DEPRECATED. Use gulp-postcss instead.
+
+---
+
 # gulp-[cssnext](https://github.com/cssnext/cssnext)
 
 [![Build Status](http://img.shields.io/travis/cssnext/gulp-cssnext.svg)](https://travis-ci.org/cssnext/gulp-cssnext)
